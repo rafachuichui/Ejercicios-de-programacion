@@ -1,0 +1,22 @@
+let nombre = 'Rafa';
+let apellido = 'Miguez';
+
+let nombreCompleto = nombre + ' ' +apellido;
+console.log(nombreCompleto);
+//Rafa Miguez
+
+
+let a = '10';
+let b = '20';
+console.log(a+b);
+//1020
+
+let c = 10;
+let d = 20;
+console.log(c+d);
+//30
+
+let activo = true;
+let despedido = false;
+console.log(activo + despedido);
+//true = 1; false = 0; 1+0=1
