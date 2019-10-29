@@ -1,0 +1,13 @@
+//CONVERSOR GRADOS
+let c;
+let f = 90;
+
+// una forma
+c = (f - 32)* (5 / 9);
+
+
+// otra forma
+c= f - 32;
+c= c * (5/9);
+
+console.log(c);
