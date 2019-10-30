@@ -16,3 +16,13 @@ estatura: 1.7
 
 }
 describirPersona(persona);
+
+
+//problema 3
+let personas = ['Fernando','Ana','Rafa'];
+let salarios = [1000,1500,2000];
+
+for (let i = 0; i < personas.length; i++) {
+    console.log(personas[i] + ' tiene un salario de '+ salarios[i]);
+    
+}
