@@ -1,0 +1,8 @@
+//problema 1
+
+let flores = ['Rosa','Girasol','Lirio'];
+
+console.log(flores[1]);
+
+//problema 2
+
