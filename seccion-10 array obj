@@ -1,0 +1,22 @@
+let persona1 = {
+    nombre: 'Maria',
+    edad:40
+};
+
+let persona2 = {
+    nombre: 'Juan',
+    edad:33
+};
+
+let persona3 = {
+    nombre: 'Rafa',
+    edad:36
+};
+
+let personas = [persona1,persona2,persona3];
+
+
+for (let i = 0; i < personas.length; i++) {
+        let persona = personas[i];
+    console.log(`${persona.nombre} -- ${persona.edad}`);
+}
