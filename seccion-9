@@ -5,4 +5,14 @@ let flores = ['Rosa','Girasol','Lirio'];
 console.log(flores[1]);
 
 //problema 2
+function describirPersona(p) {
+    console.log(`${p.nombre} tiene una edad de ${p.edad} y mide ${p.estatura}`);
+}
 
+let persona = {
+nombre: 'Rafael',
+edad: 36,
+estatura: 1.7
+
+}
+describirPersona(persona);
