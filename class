@@ -1,0 +1,42 @@
+class Coche {
+    constructor(marca1, tipo1, puertas){
+        
+        this.marca = marca1;
+        this.tipo1 = tipo1;
+        this.puertas = puertas;
+        
+        this.creadoEn = 'hoy';
+        this.encendido = false;
+        this.gasolina = 100;
+
+
+    }
+    encenderCoche (){
+        if (this.encendido) {
+            console.error('El coche ya estaba encendido...se ha dañado el motor');
+        }else{
+            this.encendido = true;
+            console.log('El coche está encendido');
+        }
+
+        return this;         
+    }
+
+    realizarViaje(consumo){
+        if (!this.encendido) return console.log('El coche está apagado');
+        if (consumo > this.gasolina) return console.log('No se puede realizar el vieje: Gasolina ' + this.gasolina); {
+            
+            this.gasolina = this.gasolina - consumo;
+            return 'Le queda ' + this.gasolina;       
+        
+        }
+    }
+
+}
+
+
+let coche = new Coche('Mazda','Sedan','2')
+let coche1 = new Coche('Mercedes','Familiar','5')
+
+
+console.log(coche);
