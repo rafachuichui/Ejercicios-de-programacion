@@ -18,3 +18,9 @@ let km = 20;
 let mi = km * 0.62 ;
 
 console.log(mi);
+
+
+//calcule el area de un triangulo rectangulo que:
+//base 10 
+//altura 5
+
