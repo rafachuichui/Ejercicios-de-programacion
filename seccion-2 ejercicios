@@ -1,3 +1,4 @@
+//ejercicio 1
 let libras = 160;
 let kg = libras / 2.2046;
 
@@ -5,3 +6,12 @@ let kg = libras / 2.2046;
 kg = Math.round(kg);
 
 console.log(kg);
+
+
+
+//ejercicio 2
+let km = 20;
+
+let mi = km * 0.62 ;
+
+console.log(mi);
