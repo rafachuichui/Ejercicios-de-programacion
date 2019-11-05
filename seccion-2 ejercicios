@@ -1,4 +1,5 @@
-//ejercicio 1
+//convertir de libras a kilogramos
+
 let libras = 160;
 let kg = libras / 2.2046;
 
