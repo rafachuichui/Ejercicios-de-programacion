@@ -10,7 +10,9 @@ console.log(kg);
 
 
 
-//ejercicio 2
+//convertir de km a millas,sabiendo que:
+//1 km = 0.62
+
 let km = 20;
 
 let mi = km * 0.62 ;
