@@ -75,7 +75,7 @@ for (let i = 0; i < numeros.length; i ++) {
 
 
 
-//realice un algoritmo, que permita la impresion en consola de la siguiente tabla:
+//realizar un algoritmo, que permita la impresion en consola de la siguiente tabla:
  /*
  1  2  3  4  5
 2  4  6  8  10
